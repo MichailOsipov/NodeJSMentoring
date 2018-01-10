@@ -1,0 +1,22 @@
+{
+  "name": "nodejsmentoring",
+  "version": "1.0.0",
+  "description": "node js mentoring tasks",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichailOsipov/NodeJSMentoring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichailOsipov/NodeJSMentoring/issues"
+  },
+  "homepage": "https://github.com/MichailOsipov/NodeJSMentoring#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.10"
+  }
+}
