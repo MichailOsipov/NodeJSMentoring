@@ -4,7 +4,8 @@
   "description": "node js mentoring tasks",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon src/main.js"
+    "start": "nodemon src/main.js",
+    "debug": "nodemon --inspect-brk src/main.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/MichailOsipov/NodeJSMentoring#readme",
   "devDependencies": {
+    "lodash": "^4.17.4",
     "nodemon": "^1.14.10"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1"
   }
 }
